@@ -1,83 +1,58 @@
 {% extends '../layouts/default.twig' %}
-{% set head_title = 'Index' %}
+{% set head_title = 'Celine Bonte Portfolio' %}
 {% set body_class = '' %}
 
 {% block page %}
 
-  <style>
-    /* Inline styling for the demo purpose */
-    body,
-    .demo {
-      padding: 1.5rem;
-    }
-    body {
-      background-color: #fafafa;
-    }
-    .demo {
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: white;
-      border: 1px solid #eee;
-    }
-    .demo-title,
-    .demo-subtitle {
-      margin-bottom: 1.5rem;
-    }
-    .demo-subtitle {
-      color: #7a7a7a;
-    }
-    .demo-list {
-      list-style: none;
-      padding-left: 0;
-      margin-bottom: 0;
-      font-size: 1.125rem;
-    }
-    .demo-list li {
-      display: block;
-      padding: .75rem 0;
-      margin-bottom: 0;
-      border-bottom: 1px solid #eee;
-    }
-    .demo-list li:last-child {
-      border-bottom: none;
-    }
-    @media (min-width: 768px) {
-      body,
-      .demo {
-        padding: 2rem;
-      }
-      .demo-title {
-        font-size: 2.25rem;
-      }
-    }
-  </style>
+  <header>
 
-  {% set pages = {
-    1: {
-      t: "Demo Page",
-      u: "demo"
-    },
-    2: {
-      t: "Blank Page",
-      u: "blank"
-    },
-  } %}
-
-  <div class="demo">
-    <h1 class="demo-title">
-      Project Name
-    </h1>
-    <p class="demo-subtitle">
-      This is the demo index page with basic styling.
-      <br>
-      It might be used to let a client preview the site.
-    </p>
-    <ul class="demo-list">
-      {% for page in pages %}
-      <li><a href="{{ page.u }}.html">{{ page.t }}</a></li>
-      {% endfor %}
-    </ul>
+  <div class="language">
+    <button onclick="i18next.changeLanguage('fr')">
+      francaise
+    </button>
+    <button onclick="i18next.changeLanguage('pt')">
+      portugues
+    </button>
+    <button onclick="i18next.changeLanguage('en')">
+      english
+    </button>
   </div>
+
+    <div class="container-fluid background">
+
+
+
+      <div class="logo">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="66.375px" height="63.125px" viewBox="0 0 66.375 63.125" enable-background="new 0 0 66.375 63.125" xml:space="preserve">
+                        <g>
+                          <g>
+                            <g>
+                              <path fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-miterlimit="10" d="M64.125,2 64.125,61 3.875,61 3.875,2 
+                                35.875,2      "/>
+                            </g>
+                          </g>
+                        </g>
+                        </svg>
+        <H3>DESIGN</h3>
+        <h1>CÉLINE</h1>
+        <h2>BONTE</h2>
+      </div>
+
+
+
+
+
+
+  </header>
+
+
+
+  {% include '../components/introduction.twig' %}
+
+
+  {% include '../components/logos.twig' %}
+
+  {% include '../components/mosaic.twig' %}
+
 
 {% endblock %}

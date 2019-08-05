@@ -20,6 +20,9 @@ import searchOverlay from 'Modules/search-overlay/search-overlay';
 import collapse from 'Components/collapse.js';
 import smoothScroll from 'Components/smooth-scroll';
 import toggleElement from 'Components/toggle-element';
+import theme from 'Components/theme';
+import translation from 'Components/translation';
+
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -32,5 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
   collapse();
   smoothScroll();
   toggleElement();
+  theme();
+  translation();
 
 })

@@ -25,3 +25,13 @@ $use-spacing: true !default;
 $use-spacing-responsive: true !default;
 $use-text-alignment: true !default;
 $use-text-style: true !default;
+
+// Fonts
+$font-size-base: 1rem !default;
+$line-height-base: 1.5 !default;
+$body-color: #222 !default;
+// Transition
+$transition-base: all .2s ease-in-out !default;
+// Asset paths
+$path-image: '../assets/img';
+$path-fonts: '../fonts';
