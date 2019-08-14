@@ -1,0 +1,13 @@
+.language {
+    display: flex;
+    justify-content: center;
+
+a {
+    color:#806a6c;;
+    padding: 10px;
+    text-decoration:underline;
+    cursor:pointer;
+    &:hover {
+        color:#474040;
+    }
+}}
