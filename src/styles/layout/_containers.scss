@@ -6,6 +6,9 @@
 .text {
   padding: 50px;
   background: $background-light;
+  @media only screen and (max-width: 767px) {
+    padding:50px 20px;
+  }
   p,
   h1,
   h2 {
@@ -22,7 +25,10 @@
   }
   p {
     font-size: 18px;
-    margin:14px 0px
+    margin:14px 0px;
+    @media only screen and (max-width: 767px) {
+      font-size: 16px;
+    }
   }
   .pdflink {
     display: flex;
