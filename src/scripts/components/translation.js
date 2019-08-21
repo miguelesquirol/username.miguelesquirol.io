@@ -6,8 +6,8 @@ debug: true,
 resources: {
   pt: {
     translation: {
-      "title": "DIRETOR ARTÍSTICO",
-      "text" : "<p>Como conceptor em design gráfico digital e tradicional, construo 360 campanhas e realizo vários projetos com o objetivo constante de trazer resultados.</p><p>Seja qual for o meio, minha expertise está no entendimento das reais necessidades do cliente e na minha força na capacidade de criar um conceito que responda a ele, em todos os pontos de contato que a marca possa ter com o seu target.</p><p></p>Vontade, criatividade e atenção aos detalhes são meus pontos fortes. Eu tenho o desejo constante de reunir as pessoas ao meu redor e todos os talentos da equipe para alcançar o melhor resultado possível. Costumava trabalhar em prazos apertados e para compensar os contratempos, não perco o rumo e estou sempre pronto para novos desafios!</p>",
+      "title": "Diseñador Gráfico - líder CREATIVO",
+      "text" : "<p>Há mais de 10 anos trabalhando em impressão e digital, tenho paixão por criar soluções e experiências originais e atraentes. Eu vejo meus projetos desde a concepção até a produção, sem comprometer a atenção aos detalhes.</p><p></p>Minha força está no entendimento das necessidades reais do cliente e na capacidade de criar um conceito que responda a ele, em todos os pontos de contato. Eu sempre trago as pessoas juntas como um líder verdadeiro e apaixonado</p>",
       "logo1" : "Glucerna",
       "logo1-text" : "<li>Refonte du site web</li><li>Expérience Usager</li><li>Prise de vue en studio</li><li>Montage photo</li>",
       "logo2" : "Brunet",
@@ -36,8 +36,8 @@ resources: {
   },
   fr: {
     translation: {
-      "title": "DIRECTRICE ARTISTIQUE",
-      "text": "<p>Conceptrice à l'aise autant en numérique qu'en traditionnel, je construis des identités de marque, des expériences sur des lieux, des campagnes 360 et tout autre projet graphique avec le but constant de produire des résultats.</p><p>Quel que soit le support choisi, mon talent se révèle dans la compréhension des besoins réels du client et ma force dans la capacité de créer un concept qui y répond, dans tous les points de contact que la marque peut avoir avec sa cible.</p><p>La volonté, la créativité et le souci du détail sont mes points forts. J'ai le désir constant de réunir les gens autour de moi et tous les talents de l'équipe pour obtenir le meilleur résultat possible. Habituée à travailler dans des délais serrés et à jongler avec les contretemps, je ne perds pas le cap et je suis toujours prête pour de nouveaux défis!</p>",
+      "title": "Designer Graphique - DIRECTRICE ARTISTIQUE",
+      "text": "<p>Avec plus de 10 ans d'expérience en impression et en numérique, je me passionne pour la création et la conception de solutions originales et convaincantes. Je dirige mes projets de l’idée à la production, dans le souci constant du détail.</p><p>Ma force réside dans la compréhension des besoins réels du client et dans la capacité de créer un concept qui y réponde, dans tous les points de contact de la marque.</p>",
       "logo1" : "Glucerna",
       "logo1-text" : "<li>Refonte du site web</li><li>Expérience Usager</li><li>Prise de vue en studio</li><li>Montage photo</li>",
       "logo2" : "Brunet",
@@ -66,8 +66,8 @@ resources: {
   }, 
   en: {
     translation: {
-      "title": "ARTISTIC DIRECTOR",
-      "text": "<p>As a conceptor in digital and traditional graphic design, I build 360 campaigns and carry out various projects with the constant aim of bringing results.</p><p>Whatever the medium is, my expertise is in the understanding of the client real needs and my strength in the ability to create a concept that responds to it, in all points of contact that the brand could have with its target.</p><p>Willingness, creativity and attention to detail are my strengths. I have the constant desire to bring people around me together and all the team's talents to achieve the best possible result. Used to work in tight deadlines and to juggle the setbacks, I do not lose the course and I am always ready for new challenges!</p>" ,
+      "title": "Graphic designer - ARTISTIC DIRECTOR",
+      "text": "<p>More than 10 years working in both print and digital, I have a passion for creating original compelling design solutions and experiences. I see my projects from conception to production, without compromising attention to detail.</p><p>My strenght is in the understanding of the client real needs and the ability to create a concept that responds to it, in all the points of contact. I always bring people together as a true and passionate leader.</p>",
       "logo1" : "Glucerna",
       "logo1-text" : "<li>Refonte du site web</li><li>Expérience Usager</li><li>Prise de vue en studio</li><li>Montage photo</li>",
       "logo2" : "Brunet",
@@ -96,8 +96,8 @@ resources: {
   },
   es: {
     translation: {
-      "title": "DIRECTORA ARTÍSTICA",
-      "text": "<p>Como conceptualizador en diseño gráfico digital y tradicional, he construido campañas 360 y llevado a cabo varios proyectos con el objetivo constante de obtener resultados. </p> <p> Sea cual sea el medio, mi experiencia está en la comprensión de las necesidades reales del cliente. y mi fortaleza en la capacidad de crear un concepto que responda a él, en todos los puntos de contacto que la marca podría tener con su objetivo. </p> <p> La voluntad, la creatividad y la atención al detalle son mis puntos fuertes. Tengo el deseo constante de reunir a las personas que me rodean y todos los talentos del equipo para lograr el mejor resultado posible. Estoy acostumbrada a trabajar en plazos ajustados y a hacer malabares con los contratiempos, no pierdo el rumbo y siempre estoy listo para nuevos desafíos.!</p>" ,
+      "title": "Diseñador Gráfico - líder CREATIVO",
+      "text": "<p>Más de 10 años trabajando tanto en impresión como en digital, me apasiona crear soluciones y experiencias de diseño originales y convincentes. Superviso los proyectos durante todo el proceso, sin comprometer la atención al detalle.</p> <p> Mi fortaleza está en la comprensión de las necesidades reales del cliente y la capacidad de crear un concepto que responda a ellas, en todos los puntos de contacto. Acerco a los talentos como una verdadera y apasionada líder.</p>" ,
       "logo1" : "Glucerna",
       "logo1-text" : "<li>Refonte du site web</li><li>Expérience Usager</li><li>Prise de vue en studio</li><li>Montage photo</li>",
       "logo2" : "Brunet",
