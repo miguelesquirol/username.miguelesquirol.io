@@ -1,0 +1,80 @@
+{% extends '../layouts/default.twig' %}
+{% set head_title = 'Sample Page' %}
+{% set body_class = '' %}
+{% set menu_active = 'sample-page' %}
+
+{% block page %}
+
+<div class="container">
+  
+
+ <div class="portafolio">
+    <div class="row justify-content-sm-center">
+      <div class="col-md-10 ">
+         <img src="assets/img/Complexe_img1.jpg">
+              
+      </div>
+    </div>
+  </div>
+
+ <div class="portafolio">
+    <div class="row justify-content-sm-center">
+      <div class="col-md-6 ">
+         <img src="assets/img/Complexe_img6.png">
+            
+      </div>
+       <div class="col-md-6 row">
+            <img src="assets/img/videogif.gif" class=" align-self-center">
+            
+      </div>
+    </div>
+  </div>
+
+   <div class="portafolio">
+    <div class="row justify-content-sm-center">
+      <div class="col-md-10 ">
+         <img src="assets/img/Complexe_img3.jpg">
+              
+      </div>
+    </div>
+  </div>
+
+   <div class="portafolio">
+    <div class="row justify-content-sm-center">
+      <div class="col-md-10 ">
+         <img src="assets/img/Complexe_img4.jpg">
+             
+      </div>
+    </div>
+  </div>
+
+   <div class="portafolio">
+    <div class="row justify-content-sm-center">
+      <div class="col-md-10 ">
+      <a data-toggle="modal" data-target="#videomodal" class="videomodal">
+         <img src="assets/img/Complexe_img5.jpg">
+      </a>
+
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade " id="videomodal" tabindex="-1" role="dialog" aria-labelledby="mosaicLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-lg" role="document">
+        <div class="modal-content">
+ <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+            <div class="modal-body">
+                <iframe frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+{% endblock %}

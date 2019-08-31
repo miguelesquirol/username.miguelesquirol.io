@@ -12,6 +12,7 @@ import 'Utils/_matches.polyfill.js';
 // const log = console.log.bind(console);
 
 // Modules
+
 import carousel from 'Modules/carousel/carousel';
 import navbar from 'Modules/navbar/navbar';
 import searchOverlay from 'Modules/search-overlay/search-overlay';
@@ -22,6 +23,7 @@ import smoothScroll from 'Components/smooth-scroll';
 import toggleElement from 'Components/toggle-element';
 import theme from 'Components/theme';
 import translation from 'Components/translation';
+import modal from 'Components/modal';
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -30,12 +32,12 @@ document.addEventListener('DOMContentLoaded', function() {
   carousel();
   navbar();
   searchOverlay();
-
+  
   // Components
   collapse();
   smoothScroll();
   toggleElement();
   theme();
   translation();
-
+  modal();
 })
