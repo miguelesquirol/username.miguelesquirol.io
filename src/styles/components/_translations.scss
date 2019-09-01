@@ -1,14 +1,13 @@
 .language {
   display: flex;
   justify-content: center;
-
   a {
-    color: #806a6c;
+    color: #806a6c !important;
     padding: 10px;
-    text-decoration: underline;
+    text-decoration: underline !important;
     cursor: pointer;
     &:hover {
-      color: #474040;
+      color: #474040 !important;
     }
   }
 }
