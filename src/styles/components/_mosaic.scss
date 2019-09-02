@@ -46,3 +46,31 @@
     margin-left: 20px;
   }
 }
+
+.gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
+  background: #eaeaea;
+  margin-left: -20px;
+  padding-right: 80px;
+  @include media-breakpoint-down(md) {
+    max-width: 70%;
+    margin: 60px auto 0;
+    padding: 0;
+  }
+}
+
+.legend {
+  max-width: 83.33333%;
+  margin: 0 auto 80px auto;
+
+  h2 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  p {
+    font-size: 25px;
+  }
+}

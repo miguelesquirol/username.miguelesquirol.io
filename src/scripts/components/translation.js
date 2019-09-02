@@ -1,121 +1,315 @@
 export function translation() {
   // Get started!
-i18next.init({
-lng: 'en',
-debug: true,
-resources: {
-  pt: {
-    translation: {
-      "title": "Diseñador Gráfico - Líder Creativo",
-      "text" : "<p>Há mais de 10 anos trabalhando em impressão e digital, tenho paixão por criar soluções e experiências originais e atraentes. Eu vejo meus projetos desde a concepção até a produção, sem comprometer a atenção aos detalhes.</p><p></p>Minha força está no entendimento das necessidades reais do cliente e na capacidade de criar um conceito que responda a ele, em todos os pontos de contato. Eu sempre trago as pessoas juntas como um líder verdadeiro e apaixonado</p>",
-      "logo1" : "GLUCERNA",
-      "logo1-text" : "<li><b>Lab. Abbott</b></li><li>Web Design</li><li>Photoshoot</li>      ",
-      "logo2" : "COMPLEXE DESJARDINS",
-      "logo2-text" : "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
-      "logo3" : "MÉTRO",
-      "logo3-text" : "<li><b>Supermarket</b></li><li>Branding</li><li>Brand Guidelines Book</li>",
-      "logo4" : "SIMILAC",
-      "logo4-text" : "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
-      "logo5" : "MIKES",
-      "logo5-text" : "<li><b>Restaurants</b></li><li>Digital Campaigns</li><li>Web Banners</li>",
-      "logo6" : "CSJR",
-      "logo6-text" : "<li><b>Engagement communautaire</b></li><li>Logotype</li><li>Web Design</li><li>Flyers and Banners</li>",
-      "logo7" : "LA PRESSE +",
-      "logo7-text" : "<li><b>Daily newspaper</b></li><li>Digital Edition</li><li>Visual Data and infographics</li><li>lllustration</li>", 
-      "logo8" : "BOMBARDIER",
-      "logo8-text" : "<li><b>Aéronautique</b></li><li>Print ads</li><li>Christmas card</li>"
+
+  var userLang = navigator.language || navigator.userLanguage;
+  var lngbrowser = userLang.substring(0, 2);
+
+  i18next.init(
+    {
+      lng: lngbrowser,
+      debug: true,
+      resources: {
+        pt: {
+          translation: {
+            title: "Diseñador Gráfico - Líder Creativo",
+            text:
+              "<p>Há mais de 10 anos trabalhando em impressão e digital, tenho paixão por criar soluções e experiências originais e atraentes. Eu vejo meus projetos desde a concepção até a produção, sem comprometer a atenção aos detalhes.</p><p></p>Minha força está no entendimento das necessidades reais do cliente e na capacidade de criar um conceito que responda a ele, em todos os pontos de contato. Eu sempre trago as pessoas juntas como um líder verdadeiro e apaixonado</p>",
+            logo4: "GLUCERNA",
+            "logo4-text":
+              "<li><b>Abbott</b></li><li>Web Design</li><li>Photoshoot</li>",
+            logo2: "COMPLEXE chDESJARDINS",
+            "logo2-text":
+              "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
+            logo3: "METRO INC.",
+            "logo3-text":
+              "<li><b>Retail</b></li><li>Branding</li><li>Brand Guidelines Book</li>",
+            logo1: "SIMILAC",
+            "logo1-text":
+              "<li><b>Abbott</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li><li>Social Media</li>",
+            logo5: "MIKES",
+            "logo5-text":
+              "<li><b>Restaurants</b></li><li>Digital Campaigns</li><li>Web Banners</li>",
+            logo6: "CSJR",
+            "logo6-text":
+              "<li><b>Community Involvement</b></li><li>Logotype</li><li>Web Design</li><li>Flyers and Banners</li>",
+            logo7: "LA PRESSE +",
+            "logo7-text":
+              "<li><b>Daily newspaper</b></li><li>Digital Edition</li><li>Visual Data and infographics</li><li>lllustration</li>",
+            logo8: "BOMBARDIER",
+            "logo8-text":
+              "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
+            "p1-title": "BOMBARDIER-pt",
+            "p1-subtitle":
+              "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
+            "p1-title": "LA PRESSE +",
+            "p1-subtitle":
+              "Photomontage, edition and original illustrations for articles published in different sections of the daily newspaper LaPresse +.",
+            "p2-title": "INTERNATIONAL",
+            "p2-subtitle":
+              "<p>Display campaigns for theaters and a magazine in the Bordeaux Region, France..</p>",
+            "p3-title": "BOMBARDIER",
+            "p3-subtitle":
+              "<p>Print Ads for in magazines for different causes in the name of the world famous company .</p>",
+            "p4-title": "CSJR",
+            "p4-subtitle":
+              "<p>Visual identity of the CSJR (Restorative Justice Services Center), website, promotional material.</p>",
+            "p5-title": "SIMILAC",
+            "p5-subtitle":
+              "<p>Repositioning the Similac brand, Abbott Laboratories, in the face of competition in the infant formula sector. Wanting to be closer to its target, the brand wants to show moms and dads that they understand their reality, in the good times of this new life and in the most difficult moments. </p><p>Redesign of the website, CRM and Facebook.</p><p>Original illustrations  Implementation of a content strategy to rejuvenate the brand on Facebook and make it more accessible, more fun and informative.</p>",
+            "p6-title": "METRO",
+            "p6-subtitle":
+              "<p>Participation in the creation of a new identity platform for the Metro brands. Visual creation, writing and production of a 150-page Brand Guidelines Book of the Quebecers' favorite grocer.</p>",
+            "p7-title": "MIKES",
+            "p7-subtitle": "<p>Seasonal digital campaigns for Mikes.</p>",
+            "p8-title": "GLUCERNA",
+            "p8-subtitle":
+              "<p>Website redesign for Glucerna, brand of Abbott Laboratories. The idea is to make the information that is relevant to the primary target (type 2 diabetes), clear and easily understandable. The photo montages and the presentation of the articles must allow the user to visualize very quickly the solution to his problem and make it concrete in his daily diet.</p><p>Desktop and mobile version.</p>",
+            "p9-title": "SCORES",
+            "p9-subtitle":
+              "<p>Creation of a Facebook canvas introducing the Grand Saladier of Restaurants Scores. 60 seconds video filmed in a restaurant, photo montages and GIF animations..</p>",
+            "p10-title": "COMPLEXE DESJARDINS",
+            "p10-subtitle":
+              '<p>2019 Summer Campaign for Complexe Desjardins, a shopping center in the heart of the City of Montreal. Concept based on the idea of a "village éphémère", conveyed through colorful visuals and objects made of paper cut and folded. The objects represent the offer of the Complex, the hundreds of shops and restaurants, as well as free events scheduled throughout the year. .</p><p>The 360 campaign includes printed signage, TV screen animations, installations on the Main Square, 3D objects, a quiz and a digital campaign on both Facebook and Instagram..</p>',
+            "p11-title": "DEVMCGILL",
+            "p11-subtitle":
+              "<p>Visual identity of luxury real estate projects in Montreal, websites and architecture booklets..</p>"
+          }
+        },
+        fr: {
+          translation: {
+            title: "Designer Graphique - Directrice Artistique",
+            text:
+              "<p>Avec plus de 10 ans d'expérience en impression et en numérique, je me passionne pour la création et la conception de solutions originales et convaincantes. Je dirige mes projets de l’idée à la production, dans le souci constant du détail.</p><p>Ma force réside dans la compréhension des besoins réels du client et dans la capacité de créer un concept qui y réponde, dans tous les points de contact de la marque.</p>",
+            logo4: "GLUCERNA",
+            "logo4-text":
+              "<li><b>Laboratoires Abbott</b></li><li>Refonte du site internet</li><li>Photoshoot</li>",
+            logo2: "COMPLEXE DESJARDINS",
+            "logo2-text":
+              "<li><b>Centre commercial</b></li><li>Refonte identitaire</li><li>Campagnes saisonnières</li><li>Mandats toute l'année</li>",
+            logo3: "METRO INC.",
+            "logo3-text":
+              "<li><b>Alimentation</b><li>Plateforme de marque</li><li>Guide de normes graphiques</li>",
+            logo1: "SIMILAC",
+            "logo1-text":
+              "<li><b>Laboratoires Abbott</b></li><li>Refonte du site internet</li><li>Illustration originale</li><li>Réseaux sociaux</li>",
+            logo5: "MIKES",
+            "logo5-text":
+              "<li><b>Restaurants</b></li><li>Campagnes numériques</li><li>Bannières web</li>",
+            logo6: "CSJR",
+            "logo6-text":
+              "<li><b>Engagement communautaire</b></li><li>Logotype</li><li>Site web</li><li>Matériel promotionnel</li>",
+            logo7: "LA PRESSE +",
+            "logo7-text":
+              "<li><b>Journal quotidien québécois</b><li>Édition numérique</li><li>Data-visuel et infographies</li><li>Illustration originale</li>",
+            logo8: "BOMBARDIER",
+            "logo8-text":
+              "<li><b>Aéronautique</b></li><li>Publicité imprimée</li><li>Carte de Noël</li>",
+            "p1-title": "LA PRESSE +",
+            "p1-subtitle":
+              "Photomontage, édition et illustrations originales pour des dossiers publiés dans différents cahiers du quotidien LaPresse + ",
+            "p2-title": "INTERNATIONAL",
+            "p2-subtitle":
+              "<p>Campagnes d’affichage pour des Théâtres et un magazine dans la Région de Bordeaux, en France.</p>",
+            "p3-title": "BOMBARDIER",
+            "p3-subtitle":
+              "<p>Publicités imprimées dans des magazines, pour différentes causes, au nom de Bombardier.</p>",
+            "p4-title": "CSJR",
+            "p4-subtitle":
+              "<p>Refonte globale de l'identité visuelle du Centre de Services de Justice Réparatrice, site web, matériel promotionnel.</p>",
+            "p5-title": "SIMILAC",
+            "p5-subtitle":
+              "Repositionnement de la marque Similac, des Laboratoires Abbott, face à la concurrence dans le secteur du lait maternisé. Se voulant plus proche de sa cible, la marque veut montrer aux mamans et aux papas d’aujourd’hui qu'elle comprend leur réalité, autant dans les bons moments de la vie des parents que dans les plus difficiles. </p><p>Refonte du site web, CRM et Facebook. Illustrations originales.</p><p>Mise en place d'une stratégie de contenu pour rajeunir la marque sur Facebook et la rendre plus accessible, plus ludique et plus informative.</p>",
+            "p6-title": "METRO",
+            "p6-subtitle":
+              "<p>Participation à la création d'une nouvelle plateforme identitaire pour la marque et les sous-marques de Metro, mon épicier. Création visuelle, rédaction et production d'un livre de marque et d'un guide de normes de 150 pages sur les nouvelles normes de l'épicier préférée des Québécois.</p>",
+            "p7-title": "MIKES",
+            "p7-subtitle":
+              "<p>Campagnes numériques saisonnières pour Mikes.</p>",
+            "p8-title": "GLUCERNA",
+            "p8-subtitle":
+              "<p>Refonte de site web pour Glucerna, marque des Laboratoires Abbott. L’idée principale est de rendre l’information pertinente pour la cible principale, les diabétiques de type 2, claire et facilement compréhensible. Les montages photo et la présentation des articles doit permettre à l’utilisateur de visualiser très rapidement la solution à son problème et de la rendre concrète dans son alimentation de tous les jours. </p><p>Version desktop et mobile.</p>",
+            "p9-title": "SCORES",
+            "p9-subtitle":
+              "<p>Création d'un canvas Facebook introduisant le Grand Saladier des Restaurants Scores. Vidéo de 60 secondes tournée dans un restaurant, montages photos et animations GIF.</p>",
+            "p10-title": "COMPLEXE DESJARDINS",
+            "p10-subtitle":
+              '<p>Campagne d’été 2019 du Complexe Desjardins, centre commercial au coeur de la Ville de Montréal. Concept basé sur l’idée d\'un " village éphémère ", véhiculée au travers de visuels colorés et d’objets faits en papier découpé et plié. Les objets représentent l’offre du Complexe, soit les centaines de boutiques et restaurants, ainsi que les événements gratuits programmés tout au long de l’année.</p><p>La campagne 360 comprend de l’affichage imprimé, des animations sur écrans télé et écrans pilônes, des installations sur la Grande-Place avec mur instagramable, objets 3D, jeu concours, aménagement d’espaces de détente et campagne numérique sur Facebook et Instagram.</p>',
+            "p11-title": "DEVMCGILL",
+            "p11-subtitle":
+              "<p>Identité visuelle de projets immobiliers de luxe à Montréal, sites web et cahiers d’architectes.</p>"
+          }
+        },
+        en: {
+          translation: {
+            title: "Graphic Designer - Artistic Director",
+            text:
+              "<p>More than 10 years working in both print and digital, I have a passion for creating original compelling design solutions and experiences. I see my projects from conception to production, without compromising attention to detail.</p><p>My strenght is in the understanding of the client real needs and the ability to create a concept that responds to it, in all the points of contact. I always bring people together as a true and passionate leader.</p>",
+            logo4: "GLUCERNA",
+            "logo4-text":
+              "<li><b>Abbott</b></li><li>Web Design</li><li>Photoshoot</li>      ",
+            logo2: "COMPLEXE DESJARDINS",
+            "logo2-text":
+              "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
+            logo3: "METRO INC.",
+            "logo3-text":
+              "<li><b>Retail</b></li><li>Branding</li><li>Brand Guidelines Book</li>",
+            logo1: "SIMILAC",
+            "logo1-text":
+              "<li><b>Abbott</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li><li>Social Media</li>",
+            logo5: "MIKES",
+            "logo5-text":
+              "<li><b>Restaurants</b></li><li>Digital Campaigns</li><li>Web Banners</li>",
+            logo6: "CSJR",
+            "logo6-text":
+              "<li><b>Community Involvement</b></li><li>Logotype</li><li>Web Design</li><li>Flyers and Banners</li>",
+            logo7: "LA PRESSE +",
+            "logo7-text":
+              "<li><b>Daily newspaper</b></li><li>Digital Edition</li><li>Visual Data and infographics</li><li>lllustration</li>",
+            logo8: "BOMBARDIER",
+            "logo8-text":
+              "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
+            "p1-title": "LA PRESSE +",
+            "p1-subtitle":
+              "Photomontage, edition and original illustrations for articles published in different sections of the daily newspaper LaPresse +.",
+            "p2-title": "INTERNATIONAL",
+            "p2-subtitle":
+              "<p>Display campaigns for theaters and a magazine in the Bordeaux Region, France.</p>",
+            "p3-title": "BOMBARDIER",
+            "p3-subtitle":
+              "<p>Print Ads for in magazines for different causes in the name of the world famous company .</p>",
+            "p4-title": "CSJR",
+            "p4-subtitle":
+              "<p>Visual identity of the CSJR (Restorative Justice Services Center), website, promotional material.</p>",
+            "p5-title": "SIMILAC",
+            "p5-subtitle":
+              "<p>Repositioning the Similac brand, Abbott Laboratories, in the face of competition in the infant formula sector. Wanting to be closer to its target, the brand wants to show moms and dads that they understand their reality, in the good times of this new life and in the most difficult moments. </p><p>Redesign of the website, CRM and Facebook.</p><p>Original illustrations  Implementation of a content strategy to rejuvenate the brand on Facebook and make it more accessible, more fun and informative.</p>",
+            "p6-title": "METRO",
+            "p6-subtitle":
+              "<p>Participation in the creation of a new identity platform for the Metro brands. Visual creation, writing and production of a 150-page Brand Guidelines Book of the Quebecers' favorite grocer.</p>",
+            "p7-title": "MIKES",
+            "p7-subtitle": "<p>Seasonal digital campaigns for Mikes.</p>",
+            "p8-title": "GLUCERNA",
+            "p8-subtitle":
+              "<p>Website redesign for Glucerna, brand of Abbott Laboratories. The idea is to make the information that is relevant to the primary target (type 2 diabetes), clear and easily understandable. The photo montages and the presentation of the articles must allow the user to visualize very quickly the solution to his problem and make it concrete in his daily diet.</p><p>Desktop and mobile version.</p>",
+            "p9-title": "SCORES",
+            "p9-subtitle":
+              "<p>Creation of a Facebook canvas introducing the Grand Saladier of Restaurants Scores. 60 seconds video filmed in a restaurant, photo montages and GIF animations.</p>",
+            "p10-title": "COMPLEXE DESJARDINS",
+            "p10-subtitle":
+              '<p>2019 Summer Campaign for Complexe Desjardins, a shopping center in the heart of the City of Montreal. Concept based on the idea of a "village éphémère", conveyed through colorful visuals and objects made of paper cut and folded. The objects represent the offer of the Complex, the hundreds of shops and restaurants, as well as free events scheduled throughout the year. .</p><p>The 360 campaign includes printed signage, TV screen animations, installations on the Main Square, 3D objects, a quiz and a digital campaign on both Facebook and Instagram.</p>',
+            "p11-title": "DEVMCGILL",
+            "p11-subtitle":
+              "<p>Visual identity of luxury real estate projects in Montreal, websites and architecture booklets.</p>"
+          }
+        },
+        es: {
+          translation: {
+            title: "Diseñador Gráfico - Líder Creativo",
+            text:
+              "<p>Más de 10 años trabajando tanto en impresión como en digital, me apasiona crear soluciones y experiencias de diseño originales y convincentes. Superviso los proyectos durante todo el proceso, sin comprometer la atención al detalle.</p> <p> Mi fortaleza está en la comprensión de las necesidades reales del cliente y la capacidad de crear un concepto que responda a ellas, en todos los puntos de contacto. Acerco a los talentos como una verdadera y apasionada líder.</p>",
+            logo4: "GLUCERNA",
+            "logo4-text":
+              "<li><b>Abbott</b></li><li>Web Design</li><li>Photoshoot</li>",
+            logo2: "COMPLEXE DESJARDINS",
+            "logo2-text":
+              "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
+            logo3: "METRO INC.",
+            "logo3-text":
+              "<li><b>Retail</b></li><li>Branding</li><li>Brand Guidelines Book</li>",
+            logo1: "SIMILAC",
+            "logo1-text":
+              "<li><b>Abbott</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li><li>Social Media</li>",
+            logo5: "MIKES",
+            "logo5-text":
+              "<li><b>Restaurants</b></li><li>Digital Campaigns</li><li>Web Banners</li>",
+            logo6: "CSJR",
+            "logo6-text":
+              "<li><b>Community Involvement</b></li><li>Logotype</li><li>Web Design</li><li>Flyers and Banners</li>",
+            logo7: "LA PRESSE +",
+            "logo7-text":
+              "<li><b>Daily newspaper</b></li><li>Digital Edition</li><li>Visual Data and infographics</li><li>lllustration</li>",
+            logo8: "BOMBARDIER",
+            "logo8-text":
+              "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
+            "p1-title": "LA PRESSE +",
+            "p1-subtitle":
+              "Photomontage, edition and original illustrations for articles published in different sections of the daily newspaper LaPresse +.",
+            "p2-title": "INTERNATIONAL",
+            "p2-subtitle":
+              "<p>Display campaigns for theaters and a magazine in the Bordeaux Region, France.</p>",
+            "p3-title": "BOMBARDIER",
+            "p3-subtitle":
+              "<p>Print Ads for in magazines for different causes in the name of the world famous company .</p>",
+            "p4-title": "CSJR",
+            "p4-subtitle":
+              "<p>Visual identity of the CSJR (Restorative Justice Services Center), website, promotional material.</p>",
+            "p5-title": "SIMILAC",
+            "p5-subtitle":
+              "<p>Repositioning the Similac brand, Abbott Laboratories, in the face of competition in the infant formula sector. Wanting to be closer to its target, the brand wants to show moms and dads that they understand their reality, in the good times of this new life and in the most difficult moments. </p><p>Redesign of the website, CRM and Facebook.</p><p>Original illustrations  Implementation of a content strategy to rejuvenate the brand on Facebook and make it more accessible, more fun and informative.</p>",
+            "p6-title": "METRO",
+            "p6-subtitle":
+              "<p>Participation in the creation of a new identity platform for the Metro brands. Visual creation, writing and production of a 150-page Brand Guidelines Book of the Quebecers' favorite grocer.</p>",
+            "p7-title": "MIKES",
+            "p7-subtitle": "<p>Seasonal digital campaigns for Mikes.</p>",
+            "p8-title": "GLUCERNA",
+            "p8-subtitle":
+              "<p>Website redesign for Glucerna, brand of Abbott Laboratories. The idea is to make the information that is relevant to the primary target (type 2 diabetes), clear and easily understandable. The photo montages and the presentation of the articles must allow the user to visualize very quickly the solution to his problem and make it concrete in his daily diet.</p><p>Desktop and mobile version.</p>",
+            "p9-title": "SCORES",
+            "p9-subtitle":
+              "<p>Creation of a Facebook canvas introducing the Grand Saladier of Restaurants Scores. 60 seconds video filmed in a restaurant, photo montages and GIF animations.</p>",
+            "p10-title": "COMPLEXE DESJARDINS",
+            "p10-subtitle":
+              '<p>2019 Summer Campaign for Complexe Desjardins, a shopping center in the heart of the City of Montreal. Concept based on the idea of a "village éphémère", conveyed through colorful visuals and objects made of paper cut and folded. The objects represent the offer of the Complex, the hundreds of shops and restaurants, as well as free events scheduled throughout the year. .</p><p>The 360 campaign includes printed signage, TV screen animations, installations on the Main Square, 3D objects, a quiz and a digital campaign on both Facebook and Instagram.</p>',
+            "p11-title": "DEVMCGILL",
+            "p11-subtitle":
+              "<p>Visual identity of luxury real estate projects in Montreal, websites and architecture booklets.</p>"
+          }
+        }
+      }
+    },
+    function(err, t) {
+      // init set content
+      updateContent();
     }
-  },
-  fr: {
-    translation: {
-      "title": "Designer Graphique - Directrice Artistique",
-      "text": "<p>Avec plus de 10 ans d'expérience en impression et en numérique, je me passionne pour la création et la conception de solutions originales et convaincantes. Je dirige mes projets de l’idée à la production, dans le souci constant du détail.</p><p>Ma force réside dans la compréhension des besoins réels du client et dans la capacité de créer un concept qui y réponde, dans tous les points de contact de la marque.</p>",
-      "logo1" : "GLUCERNA",
-      "logo1-text" : "<li><b>Lab. Abbott</b></li><li>Refonte du site internet</li><li>Photoshoot</li>",
-      "logo2" : "COMPLEXE DESJARDINS",
-      "logo2-text" : "<li><b>Centre commercial</b></li><li>Refonte identitaire</li><li>Campagnes saisonnières</li><li>Mandats toute l'année</li>",
-      "logo3" : "MÉTRO",
-      "logo3-text" : "<li><b>Supermarchés</b><li>Plateforme de marque</li><li>Guide de normes graphiques</li>",
-      "logo4" : "SIMILAC",
-      "logo4-text" : "<li><b>Lab. Abbott</b></li><li>Refonte du site internet</li><li>Illustration originale</li>",
-      "logo5" : "MIKES",
-      "logo5-text" : "<li><b>Restaurants</b></li><li>Campagnes numériques</li><li>Bannières web</li>",
-      "logo6" : "CSJR",
-      "logo6-text" : "<li><b>Engagement communautaire</b></li><li>Logotype</li><li>Site web</li><li>Matériel promotionnel</li>",
-      "logo7" : "LA PRESSE +",
-      "logo7-text" : "<li><b>Journal quotidien québécois</b><li>Édition numérique</li><li>Data-visuel et infographies</li><li>Illustration originale</li>", 
-      "logo8" : "BOMBARDIER",
-      "logo8-text" : "<li><b>Aéronautique</b></li><li>Publicité imprimée</li><li>Carte de Noël</li>"
-    }
-  }, 
-  en: {
-    translation: {
-      "title": "Graphic Designer - Artistic Director",
-      "text": "<p>More than 10 years working in both print and digital, I have a passion for creating original compelling design solutions and experiences. I see my projects from conception to production, without compromising attention to detail.</p><p>My strenght is in the understanding of the client real needs and the ability to create a concept that responds to it, in all the points of contact. I always bring people together as a true and passionate leader.</p>",
-      "logo1" : "GLUCERNA",
-      "logo1-text" : "<li><b>Lab. Abbott</b></li><li>Web Design</li><li>Photoshoot</li>      ",
-      "logo2" : "COMPLEXE DESJARDINS",
-      "logo2-text" : "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
-      "logo3" : "MÉTRO",
-      "logo3-text" : "<li><b>Supermarket</b></li><li>Branding</li><li>Brand Guidelines Book</li>",
-      "logo4" : "SIMILAC",
-      "logo4-text" : "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
-      "logo5" : "MIKES",
-      "logo5-text" : "<li><b>Restaurants</b></li><li>Digital Campaigns</li><li>Web Banners</li>",
-      "logo6" : "CSJR",
-      "logo6-text" : "<li><b>Engagement communautaire</b></li><li>Logotype</li><li>Web Design</li><li>Flyers and Banners</li>",
-      "logo7" : "LA PRESSE +",
-      "logo7-text" : "<li><b>Daily newspaper</b></li><li>Digital Edition</li><li>Visual Data and infographics</li><li>lllustration</li>", 
-      "logo8" : "BOMBARDIER",
-      "logo8-text" : "<li><b>Aéronautique</b></li><li>Print ads</li><li>Christmas card</li>"
-    }
-  },
-  es: {
-    translation: {
-      "title": "Diseñador Gráfico - Líder Creativo",
-      "text": "<p>Más de 10 años trabajando tanto en impresión como en digital, me apasiona crear soluciones y experiencias de diseño originales y convincentes. Superviso los proyectos durante todo el proceso, sin comprometer la atención al detalle.</p> <p> Mi fortaleza está en la comprensión de las necesidades reales del cliente y la capacidad de crear un concepto que responda a ellas, en todos los puntos de contacto. Acerco a los talentos como una verdadera y apasionada líder.</p>" , 
-      "logo1" : "GLUCERNA",
-      "logo1-text" : "<li><b>Lab. Abbott</b></li><li>Web Design</li><li>Photoshoot</li>",
-      "logo2" : "COMPLEXE DESJARDINS",
-      "logo2-text" : "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
-      "logo3" : "MÉTRO",
-      "logo3-text" : "<li><b>Supermarket</b></li><li>Branding</li><li>Brand Guidelines Book</li>",
-      "logo4" : "SIMILAC",
-      "logo4-text" : "<li><b>Mall</b></li><li>Branding</li><li>Seasonal Campaigns</li><li>Projects all year long</li>",
-      "logo5" : "MIKES",
-      "logo5-text" : "<li><b>Restaurants</b></li><li>Digital Campaigns</li><li>Web Banners</li>",
-      "logo6" : "CSJR",
-      "logo6-text" : "<li><b>Engagement communautaire</b></li><li>Logotype</li><li>Web Design</li><li>Flyers and Banners</li>",
-      "logo7" : "LA PRESSE +",
-      "logo7-text" : "<li><b>Daily newspaper</b></li><li>Digital Edition</li><li>Visual Data and infographics</li><li>lllustration</li>", 
-      "logo8" : "BOMBARDIER",
-      "logo8-text" : "<li><b>Aéronautique</b></li><li>Print ads</li><li>Christmas card</li>"
+  );
+
+  function updateContent() {
+    document.getElementById("title").innerHTML = i18next.t("title");
+    document.getElementById("text").innerHTML = i18next.t("text");
+
+    for (var i = 1; i <= 8; i++) {
+      document.getElementById("logo" + i).innerHTML = i18next.t("logo" + i);
+      document.getElementById("logo" + i + "-text").innerHTML = i18next.t(
+        "logo" + i + "-text"
+      );
     }
   }
-}
-}, function(err, t) {
-// init set content
+
+  $(".mosaicbutton").click(function() {
+    var title = $(this).data("info");
+    $("#mosaiciframe").load(title, function() {
+      for (var i = 1; i <= 10; i++) {
+        if ($("#p" + i + "-title")[0]) {
+          console.log("p" + i + "-title");
+
+          document.getElementById("p" + i + "-title").innerHTML = i18next.t(
+            "p" + i + "-title"
+          );
+          document.getElementById("p" + i + "-subtitle").innerHTML = i18next.t(
+            "p" + i + "-subtitle"
+          );
+        }
+      }
+    });
+  });
+
+  function changeLng(lng) {
+    i18next.changeLanguage(lng);
+  }
+
+  i18next.on("languageChanged", () => {
     updateContent();
-
-});
-
-function updateContent() {
-document.getElementById('title').innerHTML = i18next.t('title');
-document.getElementById('text').innerHTML = i18next.t('text');
-
-for (var i = 1; i <= 8; i++) {
-document.getElementById('logo' + i).innerHTML = i18next.t('logo' + i);
-document.getElementById('logo' + i + '-text').innerHTML = i18next.t('logo' + i + '-text'); }
-}
-
-function changeLng(lng) {
-i18next.changeLanguage(lng);
-}
-
-i18next.on('languageChanged', () => {
-updateContent();
-});
-
+  });
 }
 
 export default translation;
