@@ -289,6 +289,8 @@ export function translation() {
   }
 
   function loadmodal(){
+
+    window.location.hash = "modal";
     var title = $(this).data("info");
     $("#mosaiciframe").load(title, function() {
       loadmodalopen();
@@ -325,6 +327,12 @@ export function translation() {
   }
   });
 
+
+  $(window).on('hashchange', function (event) {
+    if(window.location.hash != "#modal") {
+        $('#mosaicmodal').modal('hide');
+    }
+});
 
 
 }
