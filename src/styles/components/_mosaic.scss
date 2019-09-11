@@ -33,11 +33,13 @@
 
 .backbutton {
   width: 100%;
-  margin: 0 auto;
   text-align: left;
   height: 100px;
   display: flex;
   align-items: center;
+  flex-basis: 80px;
+  min-width: 80px;
+  cursor: pointer;
   @include media-breakpoint-up(lg) {
     width: 80%;
   }
