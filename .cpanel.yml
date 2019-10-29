@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/migueles/celinebonte2019/
-    - /bin/cp -R dist/* $DEPLOYPATH
