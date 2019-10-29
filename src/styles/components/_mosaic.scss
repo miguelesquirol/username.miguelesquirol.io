@@ -1,5 +1,8 @@
 .mosaic {
   background: $red-dark;
+  a {
+    cursor:pointer
+  }
   a:hover {
     display: flex;
     justify-content: center;
