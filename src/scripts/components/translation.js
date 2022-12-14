@@ -12,8 +12,7 @@ export function translation() {
         pt: {
           translation: {
             title: "Diseñador Gráfico <span>-</span> Líder Creativo",
-            text:
-              "<p>Há mais de 10 anos trabalhando em impressão e digital, tenho paixão por criar soluções e experiências originais e atraentes. Eu vejo meus projetos desde a concepção até a produção, sem comprometer a atenção aos detalhes.</p><p>Minha força está no entendimento das necessidades reais do cliente e na capacidade de criar um conceito que responda a ele, em todos os pontos de contato. Eu sempre trago as pessoas juntas como um líder verdadeiro e apaixonado.</p>",
+            text: "<p>Há mais de 10 anos trabalhando em impressão e digital, tenho paixão por criar soluções e experiências originais e atraentes. Eu vejo meus projetos desde a concepção até a produção, sem comprometer a atenção aos detalhes.</p><p>Minha força está no entendimento das necessidades reais do cliente e na capacidade de criar um conceito que responda a ele, em todos os pontos de contato. Eu sempre trago as pessoas juntas como um líder verdadeiro e apaixonado.</p>",
             logo4: "GLUCERNA",
             "logo4-text":
               "<li><b>Abbott</b></li><li>Web Design</li><li>Photoshoot</li>",
@@ -75,14 +74,17 @@ export function translation() {
               "<p>Criação de materiais corporativos e editoriais para a promoção de projetos imobiliários de luxo em Montreal.</p>",
             "p13-title": "Toiture Couture",
             "p13-subtitle":
-                "<p>Criação de um vídeo de 30 segundos para as plataformas Linkedin e Facebook para informar o principal objetivo da Toiture Couture, gerentes de construção, o PEP (Programa de Manutenção Preventiva) e sua promessa de vender: mais 10 anos de vida de um telhado, com manutenção regular. </p><p>Desenvolvimento de uma campanha nessas mesmas plataformas digitais para fazer as pessoas sorrirem e ao mesmo tempo comunicar informações relevantes sobre o produto e a qualidade do serviço da empresa, líder no mercado. Criação de uma página de destino e um vídeo de dados, explicando o tempo e o dinheiro economizados com o PEP.</p>"
-          }
+              "<p>Criação de um vídeo de 30 segundos para as plataformas Linkedin e Facebook para informar o principal objetivo da Toiture Couture, gerentes de construção, o PEP (Programa de Manutenção Preventiva) e sua promessa de vender: mais 10 anos de vida de um telhado, com manutenção regular. </p><p>Desenvolvimento de uma campanha nessas mesmas plataformas digitais para fazer as pessoas sorrirem e ao mesmo tempo comunicar informações relevantes sobre o produto e a qualidade do serviço da empresa, líder no mercado. Criação de uma página de destino e um vídeo de dados, explicando o tempo e o dinheiro economizados com o PEP.</p>",
+            "p14-title": "Range Rover",
+            "p14-subtitle":
+              "<p>Criação de todas as ferramentas de comunicação para as marcas Jaguar e Land Rover para vários mercados europeus, incluindo França e Bélgica, desde a publicidade digital até à publicidade impressa, incluindo a preparação de eventos no local e a edição de vídeo.</p>",
+      
+             },
         },
         fr: {
           translation: {
             title: "Designer Graphique <span>-</span> Directrice Artistique",
-            text:
-              "<p>Avec plus de 10 ans d'expérience en impression et en numérique, je me passionne pour la création et la conception de solutions originales et convaincantes. Je dirige mes projets de l’idée à la production, dans le souci constant du détail.</p><p>Ma force réside dans la compréhension des besoins réels du client et dans la capacité de créer un concept qui y réponde, dans tous les points de contact de la marque.</p>",
+            text: "<p>Avec plus de 10 ans d'expérience en impression et en numérique, je me passionne pour la création et la conception de solutions originales et convaincantes. Je dirige mes projets de l’idée à la production, dans le souci constant du détail.</p><p>Ma force réside dans la compréhension des besoins réels du client et dans la capacité de créer un concept qui y réponde, dans tous les points de contact de la marque.</p>",
             logo4: "GLUCERNA",
             "logo4-text":
               "<li><b>Laboratoires Abbott</b></li><li>Refonte du site internet</li><li>Photoshoot</li>",
@@ -136,20 +138,22 @@ export function translation() {
               "<p>Création d'un canvas Facebook introduisant le Grand Saladier des Restaurants Scores. Vidéo de 60 secondes tournée dans un restaurant, montages photos et animations GIF.</p>",
             "p10-title": "COMPLEXE DESJARDINS",
             "p10-subtitle":
-              '<p>Conception de la campagne d’été 2019 du Complexe Desjardins, un des plus grands centres commerciaux au Centre-ville de Montréal, visité plus de 17 millions de fois chaque année.</p><p>Le concept de la campagne est basé sur l’idée d’un \" village éphémère \" où les Montréalais se retrouvent pour profiter des boutiques et restaurants du Complexe, et des nombreux événements programmés sur la Grande-Place de juin à septembre, en collaboration avec les principaux Festivals du Quartier des Spectacles tels que les Francofolies, le Festival de Jazz ou Montréal Complètement Cirque.</p><p>La campagne 360 est déployée en affichage, habillage de palissades, animations sur écrans, installation d’espaces détente, objets 3D et murs instagramables sur la Grande-Place, ainsi qu’une stratégie de contenu sur Facebook et Instagram. Au travers des différentes plateformes, se déclinent des visuels colorés et une série d’objets 3D faits de papier découpé et plié. Tout cela renforce le sentiment que vous pouvez passer des moments frais et délicieux à l’intérieur des murs du Complexe tout au long de l’été.</p>',
+              '<p>Conception de la campagne d’été 2019 du Complexe Desjardins, un des plus grands centres commerciaux au Centre-ville de Montréal, visité plus de 17 millions de fois chaque année.</p><p>Le concept de la campagne est basé sur l’idée d’un " village éphémère " où les Montréalais se retrouvent pour profiter des boutiques et restaurants du Complexe, et des nombreux événements programmés sur la Grande-Place de juin à septembre, en collaboration avec les principaux Festivals du Quartier des Spectacles tels que les Francofolies, le Festival de Jazz ou Montréal Complètement Cirque.</p><p>La campagne 360 est déployée en affichage, habillage de palissades, animations sur écrans, installation d’espaces détente, objets 3D et murs instagramables sur la Grande-Place, ainsi qu’une stratégie de contenu sur Facebook et Instagram. Au travers des différentes plateformes, se déclinent des visuels colorés et une série d’objets 3D faits de papier découpé et plié. Tout cela renforce le sentiment que vous pouvez passer des moments frais et délicieux à l’intérieur des murs du Complexe tout au long de l’été.</p>',
             "p11-title": "DEVMCGILL",
             "p11-subtitle":
               "<p>Création de matériel corporatif et d'édition pour la promotion de projets immobiliers de luxe à Montréal..</p>",
             "p13-title": "Toiture Couture",
             "p13-subtitle":
-                "<p>Conception d'une vidéo de 30 secondes diffusée sur les plateformes Linkedin et Facebook pour faire connaître à la cible principale de Toiture Couture, les gestionnaires d'immeubles, le PEP (Programme d'entretien Préventif) et sa promesse de vente : rallonger de 10 ans la durée de vie d'une toiture en l'entretenant régulièrement.</p><p>Développement d'une campagne sur ces mêmes plateformes numériques pour à la fois faire sourire et communiquer de l'information pertinente sur le produit et la qualité du service de la compagnie, leader sur son marché. Création d'une landing page et d'une vidéo infographique expliquant l'économie faite sur le long terme, en temps et en argent.</p>"
-          }
+              "<p>Conception d'une vidéo de 30 secondes diffusée sur les plateformes Linkedin et Facebook pour faire connaître à la cible principale de Toiture Couture, les gestionnaires d'immeubles, le PEP (Programme d'entretien Préventif) et sa promesse de vente : rallonger de 10 ans la durée de vie d'une toiture en l'entretenant régulièrement.</p><p>Développement d'une campagne sur ces mêmes plateformes numériques pour à la fois faire sourire et communiquer de l'information pertinente sur le produit et la qualité du service de la compagnie, leader sur son marché. Création d'une landing page et d'une vidéo infographique expliquant l'économie faite sur le long terme, en temps et en argent.</p>",
+            "p14-title": "RANGE ROVER",
+            "p14-subtitle":
+              "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>",
+          },
         },
         en: {
           translation: {
             title: "Graphic Designer <span>-</span> Artistic Director",
-            text:
-              "<p>More than 10 years working in both print and digital, I have a passion for creating original compelling design solutions and experiences. I see my projects from conception to production, without compromising attention to detail.</p><p>My strenght is in the understanding of the client real needs and the ability to create a concept that responds to it, in all the points of contact. I always bring people together as a true and passionate leader.</p>",
+            text: "<p>More than 10 years working in both print and digital, I have a passion for creating original compelling design solutions and experiences. I see my projects from conception to production, without compromising attention to detail.</p><p>My strenght is in the understanding of the client real needs and the ability to create a concept that responds to it, in all the points of contact. I always bring people together as a true and passionate leader.</p>",
             logo4: "GLUCERNA",
             "logo4-text":
               "<li><b>Abbott</b></li><li>Web Design</li><li>Photoshoot</li>",
@@ -191,9 +195,10 @@ export function translation() {
               "<p>Repositioning of the Similac brand (Abbott Laboratories), on top of the competition in the infant formula sector. In order to be closer to our target, we want to show today's moms and dads that we understand their reality, in every moment of their new life, and that we don't let them down in this adventure.</p><p>Redesign of the website, CRM and Facebook.</p><p>Original illustrations  Implementation of a content strategy to rejuvenate the brand on Facebook and make it more accessible, more fun and informative.</p>",
             "p6-title": "METRO",
             "p6-subtitle":
-              "<p>Creation of a new identity platform for the Metro brand, a leader in the supermarket segment in Quebec known as \"Quebecers’ favorite grocer\".</p>.<p>Graphic conception and content writing of a brand book containing 150 pages of identity guidelines that are applied today by more than 334 stores in Quebec.</p>",
+              '<p>Creation of a new identity platform for the Metro brand, a leader in the supermarket segment in Quebec known as "Quebecers’ favorite grocer".</p>.<p>Graphic conception and content writing of a brand book containing 150 pages of identity guidelines that are applied today by more than 334 stores in Quebec.</p>',
             "p7-title": "IMVESCOR INC., Restauration",
-            "p7-subtitle": "<p>Digital campaigns for Mikes and Scores restaurants, which have more than 100 stores and belong to the Imvescor group, a Canadian restaurant chain based mainly in Quebec.</p><p>Animated web banners, contests and launch of seasonal campaigns for Mikes.</p><p>Artistic direction of a video shoot and creation of a Facebook canvas promoting the salad bar for Scores.</p>",
+            "p7-subtitle":
+              "<p>Digital campaigns for Mikes and Scores restaurants, which have more than 100 stores and belong to the Imvescor group, a Canadian restaurant chain based mainly in Quebec.</p><p>Animated web banners, contests and launch of seasonal campaigns for Mikes.</p><p>Artistic direction of a video shoot and creation of a Facebook canvas promoting the salad bar for Scores.</p>",
             "p8-title": "GLUCERNA",
             "p8-subtitle":
               "<p>Design of the Glucerna website, a brand of Abbott Laboratories which offers dietary supplements for people with type 2 diabetes. The main idea is to make information about type 2 diabetes clear and easily understandable by the target.</p><p>The presentation of the articles and the Meal Plans make the user visualize quickly what a healthy diet is and the content of the website gives him the tools to follow a suitable diet.</p><p>Desktop and mobile version.</p>",
@@ -208,84 +213,90 @@ export function translation() {
               "<p>Creation of corporate and publishing materials for the promotion of luxury real estate projects in Montreal.</p>",
             "p13-title": "Toiture Couture",
             "p13-subtitle":
-                "<p>Creation of a 30-second video for Linkedin and Facebook platforms to inform the main target of Toiture Couture, building managers, the PEP (Preventive Maintenance Program) and its promise to sell: 10 more years of life of a roof, with regular maintenance. Development of a campaign on these same digital platforms to make people smile and at the same time communicate relevant information on the product and the quality of service of the company, which is the leader in the market.</p><p>Creation of a landing page and a data video, explaining the time and the money saved with the PEP.</p>"
-          }
+              "<p>Creation of a 30-second video for Linkedin and Facebook platforms to inform the main target of Toiture Couture, building managers, the PEP (Preventive Maintenance Program) and its promise to sell: 10 more years of life of a roof, with regular maintenance. Development of a campaign on these same digital platforms to make people smile and at the same time communicate relevant information on the product and the quality of service of the company, which is the leader in the market.</p><p>Creation of a landing page and a data video, explaining the time and the money saved with the PEP.</p>",
+            "p14-title": "RANGE ROVER",
+            "p14-subtitle":
+              "<p>Creating all the promotional assets of communication for the Jaguar and Land Rover brands for several markets in Europe like France and Belgium, from digital to print, event or video..</p>",
+          },
         },
         es: {
           translation: {
             title: "Diseñador Gráfico <span>-</span> Líder Creativo",
-            text:
-              "<p>Más de 10 años trabajando tanto en impresión como en digital, me apasiona crear soluciones y experiencias de diseño originales y convincentes. Superviso los proyectos durante todo el proceso, sin comprometer la atención al detalle.</p> <p> Mi fortaleza está en la comprensión de las necesidades reales del cliente y la capacidad de crear un concepto que responda a ellas, en todos los puntos de contacto. Acerco a los talentos como una verdadera y apasionada líder.</p>",
-              logo4: "GLUCERNA",
-              "logo4-text":
-                "<li> <b> Abbott </b> </li> <li> Diseño web </li> <li> Sesión de fotos </li>",
-              logo2: "COMPLEJO DESJARDINS",
-              "logo2-text":
-                "<li> <b> Centro comercial </b> </li> <li> Diseño de Marca </li> <li> Campañas de temporada </li> <li> Proyectos durante todo el año </li>",
-              logo3: "METRO INC.",
-              "logo3-text":
-                "<li> <b> Venta minorista </b> </li> <li> Diseño de Marca </li> <li> Libro de directrices de marca </li>",
-              logo1: "SIMILAC",
-              "logo1-text":
-                "<li> <b> Abbott </b> </li> <li> Diseño de Marca </li> <li> Campañas de temporada </li> <li> Proyectos durante todo el año </li> <li> Redes sociales </li> ",
-              logo5: "MIKES",
-              "logo5-text":
-                "<li> <b> Restaurantes </b> </li> <li> Campañas digitales </li> <li> Banners web </li>",
-              logo6: "CSJR",
-              "logo6-text":
-                "<li> <b> Participación en la comunidad </b> </li> <li> Logotipo </li> <li> Diseño web </li> <li> Volantes y pancartas </li>",
-              logo7: "LA PRESSE +",
-              "logo7-text":
-                "<li> <b> Periódico diario </b> </li> <li> Edición digital </li> <li> Datos visuales e infografías </li> <li>Ilustración </li>",
-              logo8: "BOMBARDIER",
-              "logo8-text":
-                "<li> <b> Aviación </b> </li> <li> Publicidad impresa </li> <li> Tarjeta de Navidad </li>",
-              "p1-title": "LA PRESSE +",
-              "p1-subtitle":
-                "<p> Participación en el lanzamiento de La Presse +, uno de los periódicos más famosos de Québec (Canadá) y también el primero en el mundo que se publica solo en tabletas, con 400 000 bajadas en los primeros 9 meses. </ p> <p> Fotomontaje, edición, datos visuales e ilustraciones originales para artículos publicados en varias secciones del periódico. Mejora, a lo largo de los meses, de la experiencia y la navegación del usuario, creando una nueva forma para que los Quebequenses lea el noticias.</p> ",
-              "p2-title": "CARTELES",
-              "p2-subtitle":
-                "<p> Carteles y volantes para varios teatros y festivales en la región de Burdeos (Francia), así como la promoción de una revista de vinos. Colaboración con el estudio SB Design.</p>",
-              "p3-title": "BOMBARDIER",
-              "p3-subtitle":
-                "<p> Serie de inserciones publicitarias en revistas, por diversas causas defendidas por la multinacional canadiense Bombardier, sucursal aeroespacial. Diseño de folletos de ventas y una tarjeta de felicitación navideña.</p>",
-              "p4-title": "CSJR",
-              "p4-subtitle":
-                "<p> Identidad visual del CSJR (Centro de Servicios de Justicia Restaurativa), sitio web, carteles, material promocional. Participación voluntaria en el desarrollo y promoción de la asociación en Quebec.</p>",
-              "p5-title": "SIMILAC",
-              "p5-subtitle":
-                "<p> Reposicionamiento de la marca Similac (Abbott Laboratories), además de la competencia en el sector de fórmulas infantiles. Para estar más cerca de su objetivo, queríamos mostrarles a las mamás y papás de hoy que la compañía entiene su realidad, en cada momento de su nueva vida, y que no los decepcionaran en esta aventura.</p> <p> Rediseño del sitio web, CRM y Facebook.</p> <p> Ilustraciones originales Implementación de una estrategia de contenido para rejuvenecer la marca en Facebook y hacerla más accesible, más divertida e informativa.</p> ",
-              "p6-title": "METRO",
-              "p6-subtitle":
-                "<p> Creación de una nueva plataforma de identidad para la marca Metro, líder en el segmento de supermercados en Quebec conocida como \" Tienda de comestibles favorita de los quebequenses \".</p>. <p> Concepción gráfica y redacción de contenido de un libro de marca que contiene 150 páginas de pautas de identidad que se aplican hoy en más de 334 tiendas en Quebec.</p>",
-              "p7-title": "IMVESCOR INC., Restauration",
-              "p7-subtitle": "<p> Campañas digitales para restaurantes Mikes y Scores, que tienen más de 100 sucursales y pertenecen al grupo Imvescor, una cadena de restaurantes canadienses con sede principalmente en Quebec.</p> <p> Banners web animados , concursos y lanzamiento de campañas de temporada para Mikes.</p> <p> Dirección artística de una sesión de video y creación de un lienzo de Facebook que promueve la barra de ensaladas de Scores.</p>",
-              "p8-title": "GLUCERNA",
-              "p8-subtitle":
-                "<p> Diseño del sitio web Glucerna, una marca de Laboratorios Abbott que ofrece suplementos dietéticos para personas con diabetes tipo 2. La idea principal es hacer que la información sobre la diabetes tipo 2 sea clara y fácilmente comprensible para el objetivo.</p> <p> La presentación de los artículos y los Planes de comidas hacen que el usuario visualice rápidamente qué es una dieta saludable y el contenido del sitio web le brinda las herramientas para seguir una dieta adecuada.</p> <p> Versión de escritorio y móvil. </p> ",
-              "p9-title": "PUNTUACIONES",
-              "p9-subtitle":
-                "<p> Creación de un lienzo de Facebook que presenta las puntuaciones de Grand Saladier of Restaurants. Video de 60 segundos filmado en un restaurante, fotomontajes y animaciones GIF.</p>",
-              "p10-title": "COMPLEJO DESJARDINS",
-              "p10-subtitle":
+            text: "<p>Más de 10 años trabajando tanto en impresión como en digital, me apasiona crear soluciones y experiencias de diseño originales y convincentes. Superviso los proyectos durante todo el proceso, sin comprometer la atención al detalle.</p> <p> Mi fortaleza está en la comprensión de las necesidades reales del cliente y la capacidad de crear un concepto que responda a ellas, en todos los puntos de contacto. Acerco a los talentos como una verdadera y apasionada líder.</p>",
+            logo4: "GLUCERNA",
+            "logo4-text":
+              "<li> <b> Abbott </b> </li> <li> Diseño web </li> <li> Sesión de fotos </li>",
+            logo2: "COMPLEJO DESJARDINS",
+            "logo2-text":
+              "<li> <b> Centro comercial </b> </li> <li> Diseño de Marca </li> <li> Campañas de temporada </li> <li> Proyectos durante todo el año </li>",
+            logo3: "METRO INC.",
+            "logo3-text":
+              "<li> <b> Venta minorista </b> </li> <li> Diseño de Marca </li> <li> Libro de directrices de marca </li>",
+            logo1: "SIMILAC",
+            "logo1-text":
+              "<li> <b> Abbott </b> </li> <li> Diseño de Marca </li> <li> Campañas de temporada </li> <li> Proyectos durante todo el año </li> <li> Redes sociales </li> ",
+            logo5: "MIKES",
+            "logo5-text":
+              "<li> <b> Restaurantes </b> </li> <li> Campañas digitales </li> <li> Banners web </li>",
+            logo6: "CSJR",
+            "logo6-text":
+              "<li> <b> Participación en la comunidad </b> </li> <li> Logotipo </li> <li> Diseño web </li> <li> Volantes y pancartas </li>",
+            logo7: "LA PRESSE +",
+            "logo7-text":
+              "<li> <b> Periódico diario </b> </li> <li> Edición digital </li> <li> Datos visuales e infografías </li> <li>Ilustración </li>",
+            logo8: "BOMBARDIER",
+            "logo8-text":
+              "<li> <b> Aviación </b> </li> <li> Publicidad impresa </li> <li> Tarjeta de Navidad </li>",
+            "p1-title": "LA PRESSE +",
+            "p1-subtitle":
+              "<p> Participación en el lanzamiento de La Presse +, uno de los periódicos más famosos de Québec (Canadá) y también el primero en el mundo que se publica solo en tabletas, con 400 000 bajadas en los primeros 9 meses. </ p> <p> Fotomontaje, edición, datos visuales e ilustraciones originales para artículos publicados en varias secciones del periódico. Mejora, a lo largo de los meses, de la experiencia y la navegación del usuario, creando una nueva forma para que los Quebequenses lea el noticias.</p> ",
+            "p2-title": "CARTELES",
+            "p2-subtitle":
+              "<p> Carteles y volantes para varios teatros y festivales en la región de Burdeos (Francia), así como la promoción de una revista de vinos. Colaboración con el estudio SB Design.</p>",
+            "p3-title": "BOMBARDIER",
+            "p3-subtitle":
+              "<p> Serie de inserciones publicitarias en revistas, por diversas causas defendidas por la multinacional canadiense Bombardier, sucursal aeroespacial. Diseño de folletos de ventas y una tarjeta de felicitación navideña.</p>",
+            "p4-title": "CSJR",
+            "p4-subtitle":
+              "<p> Identidad visual del CSJR (Centro de Servicios de Justicia Restaurativa), sitio web, carteles, material promocional. Participación voluntaria en el desarrollo y promoción de la asociación en Quebec.</p>",
+            "p5-title": "SIMILAC",
+            "p5-subtitle":
+              "<p> Reposicionamiento de la marca Similac (Abbott Laboratories), además de la competencia en el sector de fórmulas infantiles. Para estar más cerca de su objetivo, queríamos mostrarles a las mamás y papás de hoy que la compañía entiene su realidad, en cada momento de su nueva vida, y que no los decepcionaran en esta aventura.</p> <p> Rediseño del sitio web, CRM y Facebook.</p> <p> Ilustraciones originales Implementación de una estrategia de contenido para rejuvenecer la marca en Facebook y hacerla más accesible, más divertida e informativa.</p> ",
+            "p6-title": "METRO",
+            "p6-subtitle":
+              '<p> Creación de una nueva plataforma de identidad para la marca Metro, líder en el segmento de supermercados en Quebec conocida como " Tienda de comestibles favorita de los quebequenses ".</p>. <p> Concepción gráfica y redacción de contenido de un libro de marca que contiene 150 páginas de pautas de identidad que se aplican hoy en más de 334 tiendas en Quebec.</p>',
+            "p7-title": "IMVESCOR INC., Restauration",
+            "p7-subtitle":
+              "<p> Campañas digitales para restaurantes Mikes y Scores, que tienen más de 100 sucursales y pertenecen al grupo Imvescor, una cadena de restaurantes canadienses con sede principalmente en Quebec.</p> <p> Banners web animados , concursos y lanzamiento de campañas de temporada para Mikes.</p> <p> Dirección artística de una sesión de video y creación de un lienzo de Facebook que promueve la barra de ensaladas de Scores.</p>",
+            "p8-title": "GLUCERNA",
+            "p8-subtitle":
+              "<p> Diseño del sitio web Glucerna, una marca de Laboratorios Abbott que ofrece suplementos dietéticos para personas con diabetes tipo 2. La idea principal es hacer que la información sobre la diabetes tipo 2 sea clara y fácilmente comprensible para el objetivo.</p> <p> La presentación de los artículos y los Planes de comidas hacen que el usuario visualice rápidamente qué es una dieta saludable y el contenido del sitio web le brinda las herramientas para seguir una dieta adecuada.</p> <p> Versión de escritorio y móvil. </p> ",
+            "p9-title": "PUNTUACIONES",
+            "p9-subtitle":
+              "<p> Creación de un lienzo de Facebook que presenta las puntuaciones de Grand Saladier of Restaurants. Video de 60 segundos filmado en un restaurante, fotomontajes y animaciones GIF.</p>",
+            "p10-title": "COMPLEJO DESJARDINS",
+            "p10-subtitle":
               '<p>Campaña de verano de 2019 para Complexe Desjardins, un centro comercial en el corazón de la ciudad de Montreal. Concepto basado en la idea de una -/"aldea éphémère/", transmitida a través de imágenes y objetos coloridos hechos de papel cortado y doblado. Los objetos representan la oferta del Complejo, los cientos de tiendas y restaurantes, así como los eventos gratuitos programados durante todo el año.</p> <p> La campaña 360 incluye señalización impresa, animaciones de pantalla de TV, instalaciones en la Plaza Principal, objetos 3D, un cuestionario y una campaña digital en Facebook e Instagram.</p> ',
-              "p11-title": "DEVMCGILL",
-              "p11-subtitle": "<p>Creación de materiales corporativos y editoriales para la promoción de proyectos inmobiliarios de lujo en Montreal.</p>",
-              "p13-title": "Toiture Couture",
-              "p13-subtitle":
-                "<p>Creación de una video de 30 segundos en las plataformas Linkedin y Facebook para informar al objetivo principal de Toiture Couture, los gerentes de edificios, el PEP (Programa de mantenimiento preventivo) y su promesa : alargar de 10 años la vida útil de un techo manteniéndolo regularmente.</p><p>Desarrollo de una campaña en estas mismas plataformas digitales para sonreír y comunicar información relevante sobre el producto y la calidad del servicio de la empresa, líder en su mercado. Creación de una landing page y un video infográfico que explica el ahorro realizado a largo plazo, en tiempo y dinero.</p>"
-          }
-        }
-      }
+            "p11-title": "DEVMCGILL",
+            "p11-subtitle":
+              "<p>Creación de materiales corporativos y editoriales para la promoción de proyectos inmobiliarios de lujo en Montreal.</p>",
+            "p15-title": "Toiture Couture",
+            "p13-subtitle":
+              "<p>Creación de una video de 30 segundos en las plataformas Linkedin y Facebook para informar al objetivo principal de Toiture Couture, los gerentes de edificios, el PEP (Programa de mantenimiento preventivo) y su promesa : alargar de 10 años la vida útil de un techo manteniéndolo regularmente.</p><p>Desarrollo de una campaña en estas mismas plataformas digitales para sonreír y comunicar información relevante sobre el producto y la calidad del servicio de la empresa, líder en su mercado. Creación de una landing page y un video infográfico que explica el ahorro realizado a largo plazo, en tiempo y dinero.</p>",
+            "p14-title": "RANGE ROVER",
+            "p14-subtitle":
+              "<p>Creación de todas las piezas de comunicación de las marcas Jaguar y Land Rover para varios mercados europeos, entre ellos Francia y Bélgica : la publicidad digital, print, diseño de eventos y la edición de vídeo.</p>",
+          },
+        },
+      },
     },
-    function(err, t) {
+    function (err, t) {
       // init set content
       updateContent();
     }
   );
 
   function updateContent() {
- 
     document.getElementById("title").innerHTML = i18next.t("title");
     document.getElementById("text").innerHTML = i18next.t("text");
 
@@ -295,23 +306,19 @@ export function translation() {
         "logo" + i + "-text"
       );
     }
-
-    
   }
 
-  function loadmodal(){
-
+  function loadmodal() {
     window.location.hash = "modal";
     var title = $(this).data("info");
-    $("#mosaiciframe").load(title, function() {
+    $("#mosaiciframe").load(title, function () {
       loadmodalopen();
     });
   }
 
-  function loadmodalopen(){
-    for (var i = 1; i <= 13; i++) {
+  function loadmodalopen() {
+    for (var i = 1; i <= 14; i++) {
       if ($("#p" + i + "-title")[0]) {
-
         document.getElementById("p" + i + "-title").innerHTML = i18next.t(
           "p" + i + "-title"
         );
@@ -320,7 +327,6 @@ export function translation() {
         );
       }
     }
-
   }
 
   $(".mosaicbutton").click(loadmodal);
@@ -333,18 +339,15 @@ export function translation() {
     updateContent();
 
     if ($("#mosaicmodal").hasClass("show")) {
-    loadmodalopen();
-  }
+      loadmodalopen();
+    }
   });
 
-
-  $(window).on('hashchange', function (event) {
-    if(window.location.hash != "#modal") {
-        $('#mosaicmodal').modal('hide');
+  $(window).on("hashchange", function (event) {
+    if (window.location.hash != "#modal") {
+      $("#mosaicmodal").modal("hide");
     }
-});
-
-
+  });
 }
 
 export default translation;
