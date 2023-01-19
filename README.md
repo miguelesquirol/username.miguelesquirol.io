@@ -4,7 +4,8 @@
 
 These tools make it a solid front-end boilerplate to get a new project off the ground.
 
-## :gift: Features
+## :gift: Features  source $(brew --prefix nvm)/nvm.sh
+
 | Features | Description |
 | :------------- | :------------- |
 | Task Runner | [Gulp](http://gulpjs.com/)
@@ -68,6 +69,10 @@ Clone this repository and run
 |--webpack.config.js       # →  Webpack config
 |--yarn.lock               # →  Yarn lock file (never edit)
 ```
+## Deployment
+
+git subtree push --prefix dist origin gh-pages
+
 
 ## Copyright and license
 

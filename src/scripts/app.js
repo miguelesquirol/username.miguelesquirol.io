@@ -13,9 +13,6 @@ import 'Utils/_matches.polyfill.js';
 
 // Modules
 
-import carousel from 'Modules/carousel/carousel';
-import navbar from 'Modules/navbar/navbar';
-import searchOverlay from 'Modules/search-overlay/search-overlay';
 
 // Components
 import collapse from 'Components/collapse.js';
@@ -28,10 +25,7 @@ import modal from 'Components/modal';
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  // Modules
-  carousel();
-  navbar();
-  searchOverlay();
+
   
   // Components
   collapse();

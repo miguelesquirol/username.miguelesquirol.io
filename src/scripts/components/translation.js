@@ -37,6 +37,12 @@ export function translation() {
             logo8: "BOMBARDIER",
             "logo8-text":
               "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
+            logo9: "LAND ROVER",
+            "logo9-text":
+              "<li><b>AUTOMÓVEL</b></li><li>Performance Marketing</li><li>Print & Digital</li><li>TVC & Social</li>",
+            logo10: "JAGUAR",
+            "logo10-text":
+            "<li><b>AUTOMÓVEL</b></li><li>Performance Marketing</li><li>Print & Digital</li><li>TVC & Social</li>",
             "p1-title": "BOMBARDIER-pt",
             "p1-subtitle":
               "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
@@ -70,16 +76,21 @@ export function translation() {
             "p10-subtitle":
               '<p>2019 Summer Campaign for Complexe Desjardins, a shopping center in the heart of the City of Montreal. Concept based on the idea of a "village éphémère", conveyed through colorful visuals and objects made of paper cut and folded. The objects represent the offer of the Complex, the hundreds of shops and restaurants, as well as free events scheduled throughout the year.</p><p>The 360 campaign includes printed signage, TV screen animations, installations on the Main Square, 3D objects, a quiz and a digital campaign on both Facebook and Instagram.</p>',
             "p11-title": "DEVMCGILL",
-            "p11-subtitle":
-              "<p>Criação de materiais corporativos e editoriais para a promoção de projetos imobiliários de luxo em Montreal.</p>",
+            "p11-subtitle": "<p>Criação de materiais corporativos e editoriais para a promoção de projetos imobiliários de luxo em Montreal.</p>",
             "p13-title": "Toiture Couture",
             "p13-subtitle":
               "<p>Criação de um vídeo de 30 segundos para as plataformas Linkedin e Facebook para informar o principal objetivo da Toiture Couture, gerentes de construção, o PEP (Programa de Manutenção Preventiva) e sua promessa de vender: mais 10 anos de vida de um telhado, com manutenção regular. </p><p>Desenvolvimento de uma campanha nessas mesmas plataformas digitais para fazer as pessoas sorrirem e ao mesmo tempo comunicar informações relevantes sobre o produto e a qualidade do serviço da empresa, líder no mercado. Criação de uma página de destino e um vídeo de dados, explicando o tempo e o dinheiro economizados com o PEP.</p>",
             "p14-title": "Range Rover",
             "p14-subtitle":
               "<p>Criação de todas as ferramentas de comunicação para as marcas Jaguar e Land Rover para vários mercados europeus, incluindo França e Bélgica, desde a publicidade digital até à publicidade impressa, incluindo a preparação de eventos no local e a edição de vídeo.</p>",
-      
-             },
+            "p15-title": "RANGE ROVER - Evoque",
+            "p15-subtitle": "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>",
+            "p15-title": "Range Rove Evoque",
+            "p15-subtitle":
+              "<p>Criação de todas as ferramentas de comunicação para as marcas Jaguar e Land Rover para vários mercados europeus, incluindo França e Bélgica, desde a publicidade digital até à publicidade impressa, incluindo a preparação de eventos no local e a edição de vídeo.</p>",
+
+
+          },
         },
         fr: {
           translation: {
@@ -109,6 +120,12 @@ export function translation() {
             logo8: "BOMBARDIER",
             "logo8-text":
               "<li><b>Aéronautique</b></li><li>Publicité imprimée</li><li>Carte de Noël</li>",
+            logo9: "LAND ROVER",
+            "logo9-text":
+            "<li><b>AUTOMOBILE</b></li><li>Imprimé & digital</li><li>TVC & Social</li>",
+            logo10: "JAGUAR",
+            "logo10-text":
+            "<li><b>AUTOMOBILE</b></li><li>Imprimé & digital</li><li>TVC & Social</li>",
             "p1-title": "LA PRESSE +",
             "p1-subtitle":
               "<p>Participation au lancement de La Presse +, grand journal quotidien québécois et premier au monde à être édité uniquement sur tablette, avec plus de 400 000 téléchargements en 9 mois.</p><p>Photomontage, édition, data-visuel et illustrations originales pour des dossiers publiés dans différents cahiers du quotidien. Perfectionnement, au fil des mois, de l'expérience et de la navigation de l'utilisateur, au travers d'une nouvelle façon pour les Québécois de lire le journal.</p>",
@@ -148,6 +165,9 @@ export function translation() {
             "p14-title": "RANGE ROVER",
             "p14-subtitle":
               "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>",
+            "p15-title": "RANGE ROVER Evoque",
+            "p15-subtitle":
+              "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>"
           },
         },
         en: {
@@ -178,6 +198,12 @@ export function translation() {
             logo8: "BOMBARDIER",
             "logo8-text":
               "<li><b>Aviation</b></li><li>Print ads</li><li>Christmas card</li>",
+            logo9: "LAND ROVER",
+            "logo9-text":
+            "<li><b>AUTOMOTIVE</b></li><li>Performance Marketing</li><li>Print & Digital</li><li>TVC & Social</li>",
+            logo10: "JAGUAR",
+            "logo10-text":
+            "<li><b>AUTOMOTIVE</b></li><li>Performance Marketing</li><li>Print & Digital</li><li>TVC & Social</li>",
             "p1-title": "LA PRESSE +",
             "p1-subtitle":
               "<p>Participation in the launch of La Presse +, one of the most famous newspapers in Québec (Canada) and also the first in the world to be published only on tablet, with 400 000 downloads in the first 9 months.</p><p>Photomontage, edition, data-visual and original illustrations for articles published in various sections of the newspaper. Improvement, over the months, of the experience and the navigation of the user, through a new way for Quebecois to read the news.</p>",
@@ -217,6 +243,9 @@ export function translation() {
             "p14-title": "RANGE ROVER",
             "p14-subtitle":
               "<p>Creating all the promotional assets of communication for the Jaguar and Land Rover brands for several markets in Europe like France and Belgium, from digital to print, event or video..</p>",
+            "p15-title": "RANGE ROVER Evoque",
+            "p15-subtitle":
+              "<p>Creating all the promotional assets of communication for the Jaguar and Land Rover brands for several markets in Europe like France and Belgium, from digital to print, event or video..</p>",
           },
         },
         es: {
@@ -247,6 +276,12 @@ export function translation() {
             logo8: "BOMBARDIER",
             "logo8-text":
               "<li> <b> Aviación </b> </li> <li> Publicidad impresa </li> <li> Tarjeta de Navidad </li>",
+            logo9: "LAND ROVER",
+            "logo9-text":
+              "<li><b>AUTOMÓVIL</b></li><li>Performance Marketing</li><li>Print & Digital</li><li>TVC & Social</li>",
+            logo10: "JAGUAR",
+            "logo10-text":
+            "<li><b>AUTOMÓVIL</b></li><li>Performance Marketing</li><li>Print & Digital</li><li>TVC & Social</li>",
             "p1-title": "LA PRESSE +",
             "p1-subtitle":
               "<p> Participación en el lanzamiento de La Presse +, uno de los periódicos más famosos de Québec (Canadá) y también el primero en el mundo que se publica solo en tabletas, con 400 000 bajadas en los primeros 9 meses. </ p> <p> Fotomontaje, edición, datos visuales e ilustraciones originales para artículos publicados en varias secciones del periódico. Mejora, a lo largo de los meses, de la experiencia y la navegación del usuario, creando una nueva forma para que los Quebequenses lea el noticias.</p> ",
@@ -286,6 +321,10 @@ export function translation() {
             "p14-title": "RANGE ROVER",
             "p14-subtitle":
               "<p>Creación de todas las piezas de comunicación de las marcas Jaguar y Land Rover para varios mercados europeos, entre ellos Francia y Bélgica : la publicidad digital, print, diseño de eventos y la edición de vídeo.</p>",
+
+            "p15-title": "RANGE ROVER Evoque",
+            "p15-subtitle":
+              "<p>Creación de todas las piezas de comunicación de las marcas Jaguar y Land Rover para varios mercados europeos, entre ellos Francia y Bélgica : la publicidad digital, print, diseño de eventos y la edición de vídeo.</p>",
           },
         },
       },
@@ -297,10 +336,11 @@ export function translation() {
   );
 
   function updateContent() {
+
     document.getElementById("title").innerHTML = i18next.t("title");
     document.getElementById("text").innerHTML = i18next.t("text");
 
-    for (var i = 1; i <= 8; i++) {
+    for (var i = 1; i <= 10; i++) {
       document.getElementById("logo" + i).innerHTML = i18next.t("logo" + i);
       document.getElementById("logo" + i + "-text").innerHTML = i18next.t(
         "logo" + i + "-text"
@@ -317,7 +357,7 @@ export function translation() {
   }
 
   function loadmodalopen() {
-    for (var i = 1; i <= 14; i++) {
+    for (var i = 1; i <= 15; i++) {
       if ($("#p" + i + "-title")[0]) {
         document.getElementById("p" + i + "-title").innerHTML = i18next.t(
           "p" + i + "-title"
