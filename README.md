@@ -41,7 +41,7 @@ Clone this repository and run
 ## Structure
 
 ```
-|--dist/                   # →  Static version of the website ready to upload (never edit)
+|--docs/                   # →  Static version of the website ready to upload (never edit)
 |
 |--gulpfile.babel.js/      # →  Gulpfile config and tasks
 |--node_modules/           # →  Node.js packages (never edit)
