@@ -80,14 +80,14 @@ export function translation() {
             "p13-title": "Toiture Couture",
             "p13-subtitle":
               "<p>Criação de um vídeo de 30 segundos para as plataformas Linkedin e Facebook para informar o principal objetivo da Toiture Couture, gerentes de construção, o PEP (Programa de Manutenção Preventiva) e sua promessa de vender: mais 10 anos de vida de um telhado, com manutenção regular. </p><p>Desenvolvimento de uma campanha nessas mesmas plataformas digitais para fazer as pessoas sorrirem e ao mesmo tempo comunicar informações relevantes sobre o produto e a qualidade do serviço da empresa, líder no mercado. Criação de uma página de destino e um vídeo de dados, explicando o tempo e o dinheiro economizados com o PEP.</p>",
-            "p14-title": "Range Rover",
+            "p14-title": "RANGE ROVER SPORT",
             "p14-subtitle":
-              "<p>Criação de todas as ferramentas de comunicação para as marcas Jaguar e Land Rover para vários mercados europeus, incluindo França e Bélgica, desde a publicidade digital até à publicidade impressa, incluindo a preparação de eventos no local e a edição de vídeo.</p>",
-            "p15-title": "RANGE ROVER - Evoque",
-            "p15-subtitle": "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>",
-            "p15-title": "Range Rove Evoque",
-            "p15-subtitle":
-              "<p>Criação de todas as ferramentas de comunicação para as marcas Jaguar e Land Rover para vários mercados europeus, incluindo França e Bélgica, desde a publicidade digital até à publicidade impressa, incluindo a preparação de eventos no local e a edição de vídeo.</p>",
+              "<p>Promoção do lançamento do novo Range Rover Sport em todos os canais e para os vários mercados europeus, por exemplo:</p><ul><li>Envio de brochuras impressas para o mercado belga em 3 línguas</li><li>Story na conta Instagram da Land Rover France que mostra as características do novo modelo</li></ul>",
+            "p15-title": "RANGE ROVER EVOQUE",
+            "p15-subtitle": "<p>Adaptación de campañas globales a los distintos mercados europeos, por ejemplo:</p><ul><li>Adaptação de campanhas globais aos diferentes mercados europeus</li><li>Campanha Display multi-formato, incluindo vídeo</li></ul>",
+            "p16-title": "JAGUAR", 
+            "p16-subtitle":
+            "<p>Concepção e produção de ferramentas de comunicação para diferentes mercados europeus, dando ao mesmo tempo a conhecer a nova identidade e universo visual da marca, por exemplo:</p><ul><li>Campanha Jaguar Always On para o Salão Automóvel de Bruxelas</li><li>Publicidade Wetransfer</li></ul>",
 
 
           },
@@ -163,11 +163,14 @@ export function translation() {
             "p13-subtitle":
               "<p>Conception d'une vidéo de 30 secondes diffusée sur les plateformes Linkedin et Facebook pour faire connaître à la cible principale de Toiture Couture, les gestionnaires d'immeubles, le PEP (Programme d'entretien Préventif) et sa promesse de vente : rallonger de 10 ans la durée de vie d'une toiture en l'entretenant régulièrement.</p><p>Développement d'une campagne sur ces mêmes plateformes numériques pour à la fois faire sourire et communiquer de l'information pertinente sur le produit et la qualité du service de la compagnie, leader sur son marché. Création d'une landing page et d'une vidéo infographique expliquant l'économie faite sur le long terme, en temps et en argent.</p>",
             "p14-title": "RANGE ROVER",
+            "p14-title": "RANGE ROVER SPORT",
             "p14-subtitle":
-              "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>",
-            "p15-title": "RANGE ROVER Evoque",
-            "p15-subtitle":
-              "<p>Création de l'ensemble des outils de communication des marques Jaguar et Land Rover pour plusieurs marchés d'Europe dont la France et la Belgique, du digital aux publicités imprimées, en passant par l'habillage sur site d'événements ou le montage vidéo.</p>"
+              "<p>Promotion du lancement du nouveau Range Rover Sport sur tous les canaux et pour différents marchés européens, par exemple:</p><ul><li>Envoi postal de dépliant pour le marché belge dans 3 langues</li><li>Story sur le compte Instagram Land Rover France présentant les caractéristiques du nouveau modèle</li></ul>",
+            "p15-title": "RANGE ROVER EVOQUE",
+            "p15-subtitle": "<p>Adaptation des campagnes globales aux différents marchés européens, par exemple:</p><ul><li>Adaptation d'un spot TV 15 sec pour le marché français</li><li>Campagne Display avec plusieurs formats incluant la vidéo</li></ul>",
+            "p16-title": "JAGUAR", 
+            "p16-subtitle":
+            "<p>Conception et production des outils de communications pour différents marchés européens tout en dévoilant la nouvelle identité et l'univers visuel de la marque, par example :</p><ul><li>Campagne Jaguar Always On, pour le salon de l'automobile de Bruxelles</li><li>Publicité Wetransfer</li></ul>",
           },
         },
         en: {
@@ -240,12 +243,15 @@ export function translation() {
             "p13-title": "Toiture Couture",
             "p13-subtitle":
               "<p>Creation of a 30-second video for Linkedin and Facebook platforms to inform the main target of Toiture Couture, building managers, the PEP (Preventive Maintenance Program) and its promise to sell: 10 more years of life of a roof, with regular maintenance. Development of a campaign on these same digital platforms to make people smile and at the same time communicate relevant information on the product and the quality of service of the company, which is the leader in the market.</p><p>Creation of a landing page and a data video, explaining the time and the money saved with the PEP.</p>",
-            "p14-title": "RANGE ROVER",
-            "p14-subtitle":
-              "<p>Creating all the promotional assets of communication for the Jaguar and Land Rover brands for several markets in Europe like France and Belgium, from digital to print, event or video..</p>",
-            "p15-title": "RANGE ROVER Evoque",
-            "p15-subtitle":
-              "<p>Creating all the promotional assets of communication for the Jaguar and Land Rover brands for several markets in Europe like France and Belgium, from digital to print, event or video..</p>",
+              "p14-title": "RANGE ROVER",
+              "p14-title": "RANGE ROVER SPORT",
+              "p14-subtitle":
+                "<p>Design of all assets promoting the launch of the New Range Rover Sport on all channels and for different European markets, for example:</p><ul><li>Direct Mailing for the Belgium Market in 3 languages</li><li>Instagram Story for the French Market presenting the features of the new model</li></ul>",
+              "p15-title": "RANGE ROVER EVOQUE",
+              "p15-subtitle": "<p>Adaptation of global campaigns for different European markets, for example:</p><ul><li>Adaptation of TVC 15 sec for French market</li><li>Display Campaign through several formats including videos</li></ul>",
+              "p16-title": "JAGUAR", 
+              "p16-subtitle":
+              "<p>Design of all the assets of for the different European markets while unveiling the new identity and visual universe of the brand, for example :</p><ul><li>Jaguar Always On Campaign, for the Brussel’s Motor Show</li><li>Wetransfer ad</li></ul>",
           },
         },
         es: {
@@ -318,14 +324,16 @@ export function translation() {
             "p15-title": "Toiture Couture",
             "p13-subtitle":
               "<p>Creación de una video de 30 segundos en las plataformas Linkedin y Facebook para informar al objetivo principal de Toiture Couture, los gerentes de edificios, el PEP (Programa de mantenimiento preventivo) y su promesa : alargar de 10 años la vida útil de un techo manteniéndolo regularmente.</p><p>Desarrollo de una campaña en estas mismas plataformas digitales para sonreír y comunicar información relevante sobre el producto y la calidad del servicio de la empresa, líder en su mercado. Creación de una landing page y un video infográfico que explica el ahorro realizado a largo plazo, en tiempo y dinero.</p>",
-            "p14-title": "RANGE ROVER",
-            "p14-subtitle":
-              "<p>Creación de todas las piezas de comunicación de las marcas Jaguar y Land Rover para varios mercados europeos, entre ellos Francia y Bélgica : la publicidad digital, print, diseño de eventos y la edición de vídeo.</p>",
-
-            "p15-title": "RANGE ROVER Evoque",
-            "p15-subtitle":
-              "<p>Creación de todas las piezas de comunicación de las marcas Jaguar y Land Rover para varios mercados europeos, entre ellos Francia y Bélgica : la publicidad digital, print, diseño de eventos y la edición de vídeo.</p>",
-          },
+              "p14-title": "RANGE ROVER",
+              "p14-title": "RANGE ROVER SPORT",
+              "p14-subtitle":
+                "<p>Promoción del lanzamiento del nuevo Range Rover Sport en todos los canales y para los distintos mercados europeos, por ejemplo:</p><ul><li>Envío de folletos impresos para el mercado belga en 3 idiomas</li><li>Story en la cuenta de Instagram de Land Rover Francia en la que se presentan las características del nuevo modelo</li></ul>",
+              "p15-title": "RANGE ROVER EVOQUE",
+              "p15-subtitle": "<p>Adaptación de campañas globales a los distintos mercados europeos, por ejemplo:</p><ul><li>Adaptación de un anuncio de televisión de 15 seg para el mercado francés</li><li>Campaña Display de visualización con varios formatos, incluido el vídeo</li></ul>",
+              "p16-title": "JAGUAR", 
+              "p16-subtitle":
+              "<p>Diseño y producción de herramientas de comunicación para diferentes mercados europeos al tiempo que se da a conocer la nueva identidad y el universo visual de la marca, por ejemplo:</p><ul><li>Campaña Always On de Jaguar para el Salón del Automóvil de Bruselas</li><li>Publicidad Wetransfer</li></ul>",
+             },
         },
       },
     },
@@ -357,7 +365,7 @@ export function translation() {
   }
 
   function loadmodalopen() {
-    for (var i = 1; i <= 15; i++) {
+    for (var i = 1; i <= 16; i++) {
       if ($("#p" + i + "-title")[0]) {
         document.getElementById("p" + i + "-title").innerHTML = i18next.t(
           "p" + i + "-title"
